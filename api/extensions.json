@@ -1,3 +1,74 @@
 {
-  "extensions": []
+  "extensions": [
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "bootc",
+      "displayName": "Bootable Containers",
+      "shortDescription": "Bootable OS containers (bootc) and disk image generation",
+      "license": "Apache-2.0",
+      "categories": ["Containers"],
+      "keywords": ["bootc", "bootable", "OS", "disk"],
+      "versions": [
+        {
+          "version": "1.11.0",
+          "podmanDesktopVersion": "^0.9.0",
+          "preview": false,
+          "lastUpdated": "2025-12-12T00:00:00Z",
+          "ociUri": "registry.stage.redhat.io/rhdesktop/rh-podman-desktop-ext-bootc-rhel10:v0.9",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "rhel-vms",
+      "displayName": "RHEL VMs",
+      "shortDescription": "Create Red Hat Enterprise Linux VMs easily",
+      "license": "Apache-2.0",
+      "categories": ["RHEL", "VMs"],
+      "keywords": ["rhel", "vm"],
+      "versions": [
+        {
+          "version": "0.8.0",
+          "podmanDesktopVersion": "^0.9.0",
+          "preview": false,
+          "lastUpdated": "2025-12-05T12:00:00Z",
+          "ociUri": "registry.stage.redhat.io/rhdesktop/rh-podman-desktop-ext-rhel-rhel10:v0.9",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/LICENSE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
