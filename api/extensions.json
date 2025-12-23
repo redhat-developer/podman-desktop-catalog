@@ -17,7 +17,7 @@
           "podmanDesktopVersion": "^0.9.0",
           "preview": false,
           "lastUpdated": "2025-12-12T00:00:00Z",
-          "ociUri": "registry.stage.redhat.io/rhdesktop/rh-podman-desktop-ext-bootc-rhel10:v0.9",
+          "ociUri": "registry.redhat.io/rhdesktop/rh-podman-desktop-ext-bootc-rhel10:v0.9-1766416023",
           "files": [
             {
               "assetType": "icon",
@@ -52,7 +52,7 @@
           "podmanDesktopVersion": "^0.9.0",
           "preview": false,
           "lastUpdated": "2025-12-05T12:00:00Z",
-          "ociUri": "registry.stage.redhat.io/rhdesktop/rh-podman-desktop-ext-rhel-rhel10:v0.9",
+          "ociUri": "registry.redhat.io/rhdesktop/rh-podman-desktop-ext-rhel-rhel10:v0.9-1766416194",
           "files": [
             {
               "assetType": "icon",
