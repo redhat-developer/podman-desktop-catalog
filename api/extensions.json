@@ -5,6 +5,142 @@
         "publisherName": "redhat",
         "displayName": "Red Hat"
       },
+      "extensionName": "redhat-authentication",
+      "displayName": "Red Hat Authentication",
+      "shortDescription": "Login to Red Hat Developers",
+      "license": "Apache-2.0",
+      "categories": ["Authentication"],
+      "keywords": ["redhat", "authentication", "login"],
+      "versions": [
+        {
+          "version": "1.0.7",
+          "preview": false,
+          "lastUpdated": "2025-12-16T00:00:00Z",
+          "ociUri": "quay.io/redhat-developer/podman-desktop-redhat-account-ext:1.0.7",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/redhat-authentication/1.0.7/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/redhat-authentication/1.0.7/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/redhat-authentication/1.0.7/LICENSE.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "redhat-sandbox",
+      "displayName": "Developer Sandbox",
+      "shortDescription": "Developer Sandbox sign up and provisioning",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["redhat", "sandbox", "provider", "remote"],
+      "versions": [
+        {
+          "version": "0.0.6",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-sandbox-ext:0.0.6",
+          "lastUpdated": "2025-12-16T00:00:00Z",
+          "preview": false,
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/redhat-sandbox/0.0.6/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/redhat-sandbox/0.0.6/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/redhat-sandbox/0.0.6/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "openshift-local",
+      "displayName": "Red Hat OpenShift Local",
+      "shortDescription": "Run Red Hat OpenShift locally",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["OpenShift", "MicroShift", "provider", "local"],
+      "versions": [
+        {
+          "version": "2.1.3",
+          "preview": false,
+          "ociUri": "ghcr.io/crc-org/crc-extension:2.1.3",
+          "lastUpdated": "2025-12-11T00:00:00Z",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/openshift-local/2.1.3/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/openshift-local/2.1.3/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/openshift-local/2.1.3/LICENSE.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "podman-desktop",
+        "displayName": "Podman Desktop"
+      },
+      "extensionName": "minikube",
+      "displayName": "minikube",
+      "shortDescription": "Run Kubernetes locally",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["kubernetes", "minikube", "provider", "local"],
+      "versions": [
+        {
+          "version": "0.4.0",
+          "preview": false,
+          "lastUpdated": "2024-11-13T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/podman-desktop-extension-minikube:0.4.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/minikube/0.4.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/minikube/0.4.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/minikube/0.4.0/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
       "extensionName": "bootc",
       "displayName": "Bootable Containers",
       "shortDescription": "Bootable OS containers (bootc) and disk image generation",
@@ -13,23 +149,128 @@
       "keywords": ["bootc", "bootable", "OS", "disk"],
       "versions": [
         {
-          "version": "1.11.0",
-          "podmanDesktopVersion": "^0.9.0",
+          "version": "1.12.2",
+          "podmanDesktopVersion": "^1.25.0",
           "preview": false,
-          "lastUpdated": "2025-12-12T00:00:00Z",
-          "ociUri": "registry.redhat.io/rhdesktop/rh-podman-desktop-ext-bootc-rhel10:v0.9-1766416023",
+          "lastUpdated": "2026-01-20T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/extension-bootc:1.12.2",
           "files": [
             {
               "assetType": "icon",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/icon.png"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.12.2/icon.png"
             },
             {
               "assetType": "README",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/README.md"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.12.2/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/LICENSE"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.12.2/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "redhat",
+        "displayName": "Red Hat"
+      },
+      "extensionName": "ai-lab",
+      "displayName": "Podman AI Lab",
+      "shortDescription": "Empowers developers to AI",
+      "license": "Apache-2.0",
+      "categories": ["AI", "Machine Learning", "LLM"],
+      "keywords": ["AI", "Machine Learning", "LLM"],
+      "versions": [
+        {
+          "version": "1.9.2",
+          "podmanDesktopVersion": "^1.14.0",
+          "preview": false,
+          "lastUpdated": "2026-01-26T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.9.2",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/ai-lab/1.9.2/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/ai-lab/1.9.2/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/ai-lab/1.9.2/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "podman-desktop",
+        "displayName": "Podman Desktop"
+      },
+      "extensionName": "quadlet",
+      "displayName": "Podman Quadlet",
+      "shortDescription": "Integrate Podman Quadlets in Podman Desktop",
+      "license": "Apache-2.0",
+      "categories": ["Containers"],
+      "keywords": ["quadlets", "podman", "podlet", "systemd"],
+      "versions": [
+        {
+          "version": "0.12.0",
+          "podmanDesktopVersion": "^1.15.0",
+          "preview": false,
+          "lastUpdated": "2026-01-26T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/pd-extension-quadlet:0.12.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/podman-quadlet/0.12.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/podman-quadlet/0.12.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/podman-quadlet/0.12.0/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "minc-org",
+        "displayName": "Minc Organization"
+      },
+      "extensionName": "minc",
+      "displayName": "MINC",
+      "shortDescription": "MicroShift in Container",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["kubernetes", "minikube", "provider", "local"],
+      "versions": [
+        {
+          "version": "0.4.0",
+          "podmanDesktopVersion": "^1.18.0",
+          "preview": false,
+          "lastUpdated": "2025-05-16T00:00:00Z",
+          "ociUri": "ghcr.io/minc-org/minc-extension:0.4.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/minc-org/minc/0.4.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/minc-org/minc/0.4.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/minc-org/minc/0.4.0/LICENSE"
             }
           ]
         }
@@ -48,23 +289,22 @@
       "keywords": ["rhel", "vm"],
       "versions": [
         {
-          "version": "0.8.0",
-          "podmanDesktopVersion": "^0.9.0",
+          "version": "0.9.0",
           "preview": false,
-          "lastUpdated": "2025-12-05T12:00:00Z",
-          "ociUri": "registry.redhat.io/rhdesktop/rh-podman-desktop-ext-rhel-rhel10:v0.9-1766416194",
+          "lastUpdated": "2026-01-16T12:00:00Z",
+          "ociUri": "ghcr.io/redhat-developer/podman-desktop-rhel-ext:0.9.0",
           "files": [
             {
               "assetType": "icon",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/icon.png"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.9.0/icon.png"
             },
             {
               "assetType": "README",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/README.md"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.9.0/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/LICENSE"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.9.0/LICENSE"
             }
           ]
         }
