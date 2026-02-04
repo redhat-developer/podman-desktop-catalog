@@ -48,7 +48,6 @@
       "versions": [
         {
           "version": "0.12.0",
-          "podmanDesktopVersion": "^1.15.0",
           "preview": false,
           "lastUpdated": "2026-01-26T00:00:00Z",
           "ociUri": "ghcr.io/podman-desktop/pd-extension-quadlet:0.12.0",
@@ -83,7 +82,6 @@
       "versions": [
         {
           "version": "0.4.0",
-          "podmanDesktopVersion": "^1.18.0",
           "preview": false,
           "lastUpdated": "2025-05-16T00:00:00Z",
           "ociUri": "ghcr.io/minc-org/minc-extension:0.4.0",
@@ -118,7 +116,6 @@
       "versions": [
         {
           "version": "1.9.3",
-          "podmanDesktopVersion": "^1.14.0",
           "preview": false,
           "lastUpdated": "2026-02-04T00:00:00Z",
           "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.9.3",
