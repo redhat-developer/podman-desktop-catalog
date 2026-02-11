@@ -2,34 +2,101 @@
   "extensions": [
     {
       "publisher": {
-        "publisherName": "redhat",
-        "displayName": "Red Hat"
+        "publisherName": "podman-desktop",
+        "displayName": "Podman Desktop"
       },
-      "extensionName": "bootc",
-      "displayName": "Bootable Containers",
-      "shortDescription": "Bootable OS containers (bootc) and disk image generation",
+      "extensionName": "minikube",
+      "displayName": "minikube",
+      "shortDescription": "Run Kubernetes locally",
       "license": "Apache-2.0",
-      "categories": ["Containers"],
-      "keywords": ["bootc", "bootable", "OS", "disk"],
+      "categories": ["Kubernetes"],
+      "keywords": ["kubernetes", "minikube", "provider", "local"],
       "versions": [
         {
-          "version": "1.11.0",
-          "podmanDesktopVersion": "^0.9.0",
+          "version": "0.4.0",
           "preview": false,
-          "lastUpdated": "2025-12-12T00:00:00Z",
-          "ociUri": "registry.redhat.io/rhdesktop/rh-podman-desktop-ext-bootc-rhel10:v0.9-1766416023",
+          "lastUpdated": "2024-11-13T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/podman-desktop-extension-minikube:0.4.0",
           "files": [
             {
               "assetType": "icon",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/icon.png"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/minikube/0.4.0/icon.png"
             },
             {
               "assetType": "README",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/README.md"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/minikube/0.4.0/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/bootc/1.11.0/LICENSE"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/minikube/0.4.0/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "podman-desktop",
+        "displayName": "Podman Desktop"
+      },
+      "extensionName": "quadlet",
+      "displayName": "Podman Quadlet",
+      "shortDescription": "Integrate Podman Quadlets in Podman Desktop",
+      "license": "Apache-2.0",
+      "categories": ["Containers"],
+      "keywords": ["quadlets", "podman", "podlet", "systemd"],
+      "versions": [
+        {
+          "version": "0.12.0",
+          "preview": false,
+          "lastUpdated": "2026-01-26T00:00:00Z",
+          "ociUri": "ghcr.io/podman-desktop/pd-extension-quadlet:0.12.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/podman-quadlet/0.12.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/podman-quadlet/0.12.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/podman-desktop/podman-quadlet/0.12.0/LICENSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "publisher": {
+        "publisherName": "minc-org",
+        "displayName": "Minc Organization"
+      },
+      "extensionName": "minc",
+      "displayName": "MINC",
+      "shortDescription": "MicroShift in Container",
+      "license": "Apache-2.0",
+      "categories": ["Kubernetes"],
+      "keywords": ["kubernetes", "minikube", "provider", "local"],
+      "versions": [
+        {
+          "version": "0.4.0",
+          "preview": false,
+          "lastUpdated": "2025-05-16T00:00:00Z",
+          "ociUri": "ghcr.io/minc-org/minc-extension:0.4.0",
+          "files": [
+            {
+              "assetType": "icon",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/minc-org/minc/0.4.0/icon.png"
+            },
+            {
+              "assetType": "README",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/minc-org/minc/0.4.0/README.md"
+            },
+            {
+              "assetType": "LICENSE",
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/minc-org/minc/0.4.0/LICENSE"
             }
           ]
         }
@@ -40,31 +107,30 @@
         "publisherName": "redhat",
         "displayName": "Red Hat"
       },
-      "extensionName": "rhel-vms",
-      "displayName": "RHEL VMs",
-      "shortDescription": "Create Red Hat Enterprise Linux VMs easily",
+      "extensionName": "ai-lab",
+      "displayName": "Podman AI Lab",
+      "shortDescription": "Empowers developers to AI",
       "license": "Apache-2.0",
-      "categories": ["RHEL", "VMs"],
-      "keywords": ["rhel", "vm"],
+      "categories": ["AI", "Machine Learning", "LLM"],
+      "keywords": ["AI", "Machine Learning", "LLM"],
       "versions": [
         {
-          "version": "0.8.0",
-          "podmanDesktopVersion": "^0.9.0",
+          "version": "1.9.3",
           "preview": false,
-          "lastUpdated": "2025-12-05T12:00:00Z",
-          "ociUri": "registry.redhat.io/rhdesktop/rh-podman-desktop-ext-rhel-rhel10:v0.9-1766416194",
+          "lastUpdated": "2026-02-04T00:00:00Z",
+          "ociUri": "ghcr.io/containers/podman-desktop-extension-ai-lab:1.9.3",
           "files": [
             {
               "assetType": "icon",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/icon.png"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/ai-lab/1.9.3/icon.png"
             },
             {
               "assetType": "README",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/README.md"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/ai-lab/1.9.3/README.md"
             },
             {
               "assetType": "LICENSE",
-              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/rhel-vms/0.8.0/LICENSE"
+              "data": "https://redhat-developer.github.io/podman-desktop-catalog/api/extensions/redhat/ai-lab/1.9.3/LICENSE"
             }
           ]
         }
